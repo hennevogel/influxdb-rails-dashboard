@@ -83,3 +83,7 @@ class ApplicationController
   end
 end
 ```
+
+## License
+This project is licensed under the MIT License -
+see the [LICENSE](https://github.com/hennevogel/influxdb-rails-dashboard/blob/master/LICENSE) file for details.
