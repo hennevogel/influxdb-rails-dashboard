@@ -36,8 +36,6 @@ In the unlikely case that you need to change the dashboard *UID*s during import 
 dashboard links in the [variables](https://grafana.com/docs/reference/templating/#adding-a-variable). Just paste whatever *UID*
 you've set up for the `Request` dashboard.
 
-### 
-
 ## Demo
 This repository includes a [docker-compose](https://docs.docker.com/compose/) demo setup
 that you can use with any rails app you already have.
@@ -83,6 +81,13 @@ class ApplicationController
   end
 end
 ```
+
+Alternatively you can also just look at how we measure the performance
+of the [Open Build Service](https://openbuildservice.org/) instance over
+at [openSUSE](https://opensuse.org), that's how this dashboard
+was born, our numbers are public 🤠
+
+https://obs-measure.opensuse.org
 
 ## License
 This project is licensed under the MIT License -
